@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('blog/index');
+    return view('blog.dasboard');
 });
 
 // Route::get('/', function () {
