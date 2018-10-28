@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('blog.dasboard');
 });
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/blog', 'Blog@index');
+
+Route::get('/blog/{id}', 'Blog@show');
