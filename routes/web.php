@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/blog', 'Blog@index');
 
 Route::get('/blog/{id}', 'Blog@show');
+
+Route::get('/project', 'Project@index');
+
+Route::get('/service', 'Service@index');
+
+Route::get('/about', 'About@index');
+
+Route::get('/contact', 'Contact@index');
