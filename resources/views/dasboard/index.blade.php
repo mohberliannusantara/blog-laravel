@@ -1,6 +1,10 @@
 @extends('index')
 
-@section('title', 'wowo')
+@section('background', 'background-1.jpg')
+
+@section('title', 'Welcome')
+
+@section('description', 'Description of the Company')
 
 @section('content')
 <div id="fh5co-work-section">

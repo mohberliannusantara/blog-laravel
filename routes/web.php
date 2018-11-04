@@ -12,10 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('blog.dasboard');
+  return view('dasboard.index');
 });
 
+Route::get('/dasboard', 'Dasboard@index');
+
 Route::get('/blog', 'Blog@index');
+
+Route::get('/blog/create', 'Blog@create');
+Route::post('/blogs', 'Blog@store');
 
 Route::get('/blog/{id}', 'Blog@show');
 

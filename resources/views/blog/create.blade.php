@@ -1,17 +1,10 @@
-@extends('index')
-
-@section('background', 'background-5.jpg')
-
-@section('title', 'Our Blogs')
-
-@section('description', 'blogs list of the company')
-
 @section('content')
 <div id="fh5co-blog-section" class="fh5co-section-gray">
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
         <h3>Read Our Blog</h3>
+        <button type="button" class="btn btn-primary">Create</button>
         <a href="blog/create" class="btn btn-primary">create</a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
       </div>

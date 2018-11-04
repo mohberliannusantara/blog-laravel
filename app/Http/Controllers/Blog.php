@@ -17,4 +17,14 @@ class Blog extends Controller
     $users = ['Lian', 'Mimi', 'Indra'];
     return view('blog.view', ['blog' => $value, 'page' => $page, 'users' => $users]);
   }
+
+  public function create()
+  {
+    return view('blog.create');
+  }
+
+  public function store(Request $request)
+  {
+    return;
+  }
 }

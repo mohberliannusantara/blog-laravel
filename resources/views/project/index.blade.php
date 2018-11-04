@@ -1,5 +1,7 @@
 @extends('index')
 
+@section('background', 'background-2.jpg')
+
 @section('title', 'Our Projects')
 
 @section('description', 'List of The Projects Finished')

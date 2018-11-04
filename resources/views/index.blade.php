@@ -57,12 +57,12 @@
 					<div class="container">
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-							<h1 id="fh5co-logo"><a href="index.html">Guar<span>dian</span></a></h1>
+							<h1 id="fh5co-logo"><a href="index.html">Ber<span>lian</span></a></h1>
 							<!-- START #fh5co-menu-wrap -->
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li class="active">
-										<a href="index.html">Home</a>
+										<a href="/">Home</a>
 									</li>
 									<li>
 										<a href="project" class="fh5co-sub-ddown">Projects</a>
@@ -119,7 +119,7 @@
 	</div> -->
 	<div class="fh5co-hero fh5co-hero-2">
 		<div class="fh5co-overlay"></div>
-		<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/work-3.jpg);">
+		<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/@yield('background'));">
 			<div class="desc animate-box">
 				<h2>@yield('title')</h2>
 				<a>@yield('description')</a>
